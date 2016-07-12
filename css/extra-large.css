@@ -1,0 +1,148 @@
+/******************
+******************
+
+	GLOBAL STYLE 
+******************
+******************/
+
+/* NAV SOCIAL */
+
+.main-nav .container{
+	width: 800px;
+	margin: 0 auto;
+}
+.main-nav #nav-logo img{
+  width: 70px;
+  height: auto;
+  padding-top: 8px;
+  position: relative;
+  float: left;
+}
+.main-nav ul{
+  padding-left: 0px;
+  padding-top: 10px;
+  float: right;
+}
+.main-nav a{
+ font-size: .85em;
+ text-decoration: none;
+ color:#513124;
+ font-family: 'Comfortaa', Helvetica, Arial, sans-serif;
+ font-weight: 700;
+}
+
+.main-nav a:hover{
+  color:#89AB4F;
+}
+.main-nav ul #s-media img{
+  width: 18px;
+  height: auto;
+  display: initial;
+}
+
+
+
+/******************
+******************
+
+	COSTUME STYLE 
+******************
+******************/
+
+/* <!-- START HEAD BANNER  --> */
+
+
+#home_banner .gaia_block #gaia_heading{
+	position: absolute;
+	bottom: 0;
+	padding-bottom: 50px;
+}
+
+
+#home_banner .gaia_block #gaia_heading #home_logo img{
+	width: 200px;
+}
+
+#home_banner .gaia_block #gaia_heading #gaia_phone {
+	padding-left: 90px;
+}
+
+#home_banner .gaia_block #gaia_heading #gaia_phone img{
+	width: 340px;
+}
+
+
+
+
+
+
+
+/* INTRO BANNER SECTION */
+
+#gaia_intro_block{
+	width: 750px;
+}
+/* GAIA LEFT BLOCK */
+
+.gaia_intro #gaia_left_block ul{
+	width: 400px;
+}
+.gaia_intro #gaia_left_block img{
+	width: 350px;
+
+}
+
+/* GAIA RIGHT BLOCK */
+.gaia_intro #gaia_right_block img{
+	width: 280px;
+	height: auto;
+	padding-top: 20px;
+	padding-bottom: 0;
+	position: relative;
+	bottom: -50px;
+	left: 60px;
+
+}
+
+/* GAIA BENEFIT */
+.gaia_benefit {
+	background: url(../images/benefit_background-xl.jpg)no-repeat left center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+
+/* <!-- START GAIA COLOR BOOK --> */
+.artbook_section {
+  background: url(../images/artbook.jpg)no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  padding-top: 50px;
+}
+
+.artbook_section #gaia_bubble img{
+	width: 420px;
+	top: -80px;
+  	left: 10px;
+}
+
+.artbook_section #gaia_bubble{
+	margin-bottom: -130px;
+}
+
+
+.artbook_section .colorbook .container{
+ /* Ratio: x 1.35; */
+
+  width:990px; 
+  height:554px; 
+  margin: 0 auto;
+  position: relative;
+  z-index: 4;
+  padding: 0;
+}

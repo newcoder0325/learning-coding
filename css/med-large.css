@@ -1,0 +1,189 @@
+/******************
+******************
+
+	GLOBAL STYLE 
+******************
+******************/
+span {
+	background: none;
+}
+
+/* NAV SOCIAL */
+.main-nav #nav-logo img{
+  width: 70px;
+  height: auto;
+  padding-top: 8px;
+  float: right;
+}
+.main-nav ul{
+  padding-left: 40px;
+  padding-top: 9px;
+  float: right;
+}
+.main-nav a{
+ font-size: .7em;
+ text-decoration: none;
+ color:#513124;
+ font-family: 'Comfortaa', Helvetica, Arial, sans-serif;
+ font-weight: 700;
+}
+
+.main-nav a:hover{
+  color:#89AB4F;
+}
+.main-nav ul #s-media img{
+  width: 20px;
+  height: auto;
+}
+
+/****************
+
+
+   MOBILE MENU
+
+
+****************/
+.banner{
+	min-height:500px;
+}
+
+#home_banner .gaia_block .container{ 
+/* this container is place in order for Gaia block to be centered 
+and reponsive to the width of the screen */
+	width: 450px;
+	height: 500px;
+}
+#home_banner .gaia_block #gaia_heading{
+	position: absolute;
+	bottom: 0;
+	padding-bottom: 30px;
+}
+
+#home_banner .gaia_block #gaia_heading #home_logo ul{
+	width: 270px;
+	top: 20px;
+	right: 1px;
+
+}
+
+#home_banner .gaia_block #gaia_heading #home_logo img{
+	width: 100px;
+	position: relative;
+	right: 10px;
+}
+
+#home_banner .gaia_block #gaia_heading #home_logo h1{
+	font-size: 1.2em;
+	color: #724333;
+}
+#home_banner .gaia_block #gaia_heading #home_logo a{
+  font-size: .9em;
+  text-align: right;
+  color: white;
+  font-weight: 700;
+  padding: 5px;
+  border-radius: 3px;
+  right: 10px;
+  top: 10px;
+  position: relative;
+
+}
+
+#home_banner .gaia_block #gaia_heading #gaia_phone {
+	padding-left: 50px;
+}
+
+#home_banner .gaia_block #gaia_heading #gaia_phone img{
+	width: 230px;
+}
+
+#home_banner .wood_banner img{
+	height: 30px;
+}
+
+
+
+/* INTRO BANNER SECTION */
+
+
+#gaia_intro_block{
+	width: 560px;
+	margin: 0 auto;
+	position: relative;
+}
+/* GAIA LEFT BLOCK */
+
+.gaia_intro #gaia_left_block ul{
+	width: 300px;
+}
+
+
+
+/* GAIA RIGHT BLOCK */
+.gaia_intro #gaia_right_block img{
+	width: 280px;
+	left: 330px;
+}
+
+/* <!-- END GAIA INTRO --> */
+
+
+.artbook_section #art_text {
+	padding-left: 50px;
+}
+
+
+/* GAIA BENEFIT */
+.gaia_benefit {
+	background: url(../images/benefit_background.jpg)no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+
+
+
+
+/* <!-- START GAIA COLOR BOOK --> */
+
+.artbook_section {
+  background: url(../images/artbook.jpg)no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+.artbook_section #gaia_bubble{
+	margin-bottom: -180px;
+}
+
+
+.artbook_section #gaia_bubble img{
+	width: 300px;
+	position: relative;
+	top: -135px;
+  	left: 300px;
+  	bottom: 0;
+}
+
+.artbook_section .colorbook .container{
+ /* Ratio: x 1.45; */
+
+  width:611px; 
+  height:342px; 
+  margin: 0 auto;
+  position: relative;
+  z-index: 4;
+  padding: 0;
+}
+
+.artbook_section .plant_icon .container{
+  position: relative;
+  bottom: -40px;
+
+}

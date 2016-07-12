@@ -1,0 +1,189 @@
+/******************
+******************
+
+	GLOBAL STYLE 
+******************
+******************/
+
+
+#home_banner .icon-menu{
+  display: none;
+}
+.main-nav{
+
+  display: initial;
+}
+
+
+/****************
+
+
+   COSTUME STYLE 
+
+
+****************/
+
+
+
+/* HOME BANNER SECTION */
+
+#home_banner .gaia_block #gaia_heading{
+	position: absolute;
+	bottom: 0;
+	padding-bottom: 30px;
+}
+
+#home_banner .gaia_block #gaia_heading #home_logo ul{
+	width: 250px;
+  right: 60px;
+  top: -10px;
+}
+
+
+#home_banner .gaia_block #gaia_heading #home_logo h1{
+	font-size: 1em;
+}
+
+#home_banner .gaia_block #gaia_heading #gaia_phone img{
+	width: 190px;
+}
+
+#home_banner .wood_banner img{
+	height: 30px;
+}
+
+/* INTRO BANNER SECTION */
+.gaia_intro{
+  padding-top: 80px;
+}
+
+#gaia_intro_block{
+	width: 450px;
+	margin: 0 auto;
+	position: relative;
+}
+/* GAIA LEFT BLOCK */
+
+.gaia_intro #gaia_left_block ul{
+	width: 280px;
+}
+.gaia_intro #gaia_left_block h1{
+	color: #724333;
+}
+
+
+.gaia_intro #gaia_left_block #feature{
+	padding-top: 50px;
+}
+
+.gaia_intro #gaia_left_block img{
+	width: 290px;
+
+}
+
+/* GAIA RIGHT BLOCK */
+.gaia_intro #gaia_right_block img{
+	width: 230px;
+	padding-bottom: 90px;
+	left: 300px;
+}
+
+/* <!-- END GAIA INTRO --> */
+
+
+/* GAIA BENEFIT */
+
+.gaia_benefit ul{
+  padding-left: 0;
+  width: 400px;
+}
+
+.gaia_benefit #icons_section {
+  text-align: center;
+  width: 400px;
+  margin: 0 auto;
+  display: inline;
+}
+.gaia_benefit #icons_section p{
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: 700;
+  color:#724333;
+}
+.gaia_benefit #icon-1 {
+  width: 90px;
+  position: relative;
+  padding-top: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+
+}
+.gaia_benefit #icon-1 img{
+  width: 40px;
+  height: auto;
+}
+.gaia_benefit #icon-2 {
+  width: 130px;
+ 	padding-top: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+  position: relative;
+  top: 20px;
+}
+.gaia_benefit #icon-2 img{
+  width: 50px;
+  height: auto;
+}
+.gaia_benefit #icon-3 {
+  width: 90px;
+  padding-top: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+  position: relative;
+  top: 20px;
+}
+.gaia_benefit #icon-3 img{
+  width: 40px;
+  height: auto;
+}
+.gaia_benefit ul #bliefs{
+  padding-top: 30px;
+}
+
+
+
+/* <!-- START GAIA COLOR BOOK --> */
+.artbook_section {
+  padding-bottom: 40px;
+}
+.artbook_section #art_text {
+	width: 450px;
+}
+.artbook_section #gaia_bubble img{
+  left: 130px;
+}
+
+.artbook_section .colorbook .container{
+
+   /* Ratio: x 1.35; */
+
+  width:421px; 
+  height:236px; 
+  margin: 0 auto;
+  position: relative;
+  z-index: 4;
+  padding: 0;
+}
+
+.artbook_section .plant_icon .container{
+  position: relative;
+  bottom: -40px;
+
+}
+.artbook_section .plant_icon img{
+  width: 250px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+

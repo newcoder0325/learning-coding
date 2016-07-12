@@ -1,0 +1,602 @@
+/******************
+******************
+
+	GLOBAL STYLE 
+******************
+******************/
+
+
+body, html{
+  margin:0;
+  padding:0;
+  overflow-x: hidden;
+  font-size:16px;
+  position: relative;
+}
+::selection {
+  background: #724333; /* WebKit/Blink Browsers */
+  color: #DBBB9C;
+}
+::-moz-selection {
+  background: #724333; /* Gecko Browsers */
+  color: #DBBB9C;
+}
+
+.container{
+  max-width: 960px;
+}
+
+h1,h2,h3,h4{
+  font-family: 'Comfortaa', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+p{
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+
+span {
+  background-color: rgba(60,37,25,0.7);
+}
+
+ul, .list-inline{
+  margin-bottom: 0;
+  padding-bottom: 0;
+  list-style-type: none;
+}
+
+
+/* Nav */
+
+.main-nav{
+  background: rgba(255,255,255,1);
+  height: 50px;
+  clear:both;
+  overflow: visible;
+  color:white;
+  position: absolute;
+  z-index: 150;
+  width: 100%;
+  margin-bottom: -50px;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+  -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+  -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+  display: none;
+}
+.fixed {
+  position: fixed;
+  top: 0;
+  background: rgba(255,255,255,0.8);
+}
+
+/* NAV SOCIAL */
+.main-nav #nav-logo img{
+  width: 70px;
+  height: auto;
+  padding-top: 8px;
+  float: right;
+}
+.main-nav ul{
+  padding-left: 40px;
+}
+.main-nav a{
+ font-size: .7em;
+ text-decoration: none;
+ color:#513124;
+ font-family: 'Comfortaa', Helvetica, Arial, sans-serif;
+ font-weight: 700;
+}
+
+.main-nav a:hover{
+  color:#89AB4F;
+  border-top: 3px solid #89AB4F;
+  border-bottom: 3px solid #89AB4F;
+}
+.main-nav ul #s-media img{
+  width: 20px;
+  height: auto;
+  display: none;
+}
+/****************
+
+
+   MOBILE MENU
+
+
+****************/
+
+/* Initial menu */
+#home_banner .mobile-menu {
+  background: url(../images/menu_background1.jpg)no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  right: -285px;  /* start off behind the scenes */
+  height: 100vh;
+  position: fixed;
+  width: 285px;
+  -webkit-box-shadow: inset 0px 0px 21px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 0px 21px -1px rgba(0,0,0,0.75);
+box-shadow: inset 0px 0px 21px -1px rgba(0,0,0,0.75);
+}
+#home_banner .mobile-menu ul {
+  border-top: 1px solid #513124;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#home_banner .mobile-menu li {
+  border-bottom: 1px solid #513124;
+  font-family: 'Comfortaa', sans-serif;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 30px;
+  padding-top: 3px;
+}
+
+#home_banner .mobile-menu a {
+  color: #BB9E7C;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#home_banner .icon-close {
+  cursor: pointer;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+#home_banner .icon-close img{
+  width: 30px;
+  height: auto;
+}
+
+
+#home_banner .icon-menu ul{
+  float: right;
+}
+
+#home_banner .icon-menu h5{
+  color: #3C2519;
+  position: relative;
+  top: -28px;
+  opacity: .8;
+  font-size: 1em;
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: 700;
+  right:-20px;
+  z-index: 5;
+}
+
+#home_banner .icon-menu img{
+  width: 50px;
+  height: auto;
+  float: right;
+  position: relative;
+  right:10px;
+  opacity: .8;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  display: initial;
+  z-index: 5;
+
+}
+/* SOCIAL MEDIA */
+#home_banner .mobile-menu #list-socialmedia{
+ border-top: none;
+ border-bottom: none;
+}
+
+#home_banner  .mobile-menu #social-media {
+  border-top: none;
+  border-bottom: none;
+
+}
+#home_banner  .mobile-menu #social-media li{
+  padding-left: 0;
+  border-bottom: none;
+
+}
+#home_banner .mobile-menu #social-media img{
+  width: 25px;
+  height: auto;
+  opacity: .5;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/******************
+******************
+
+	COSTUME STYLE 
+******************
+******************/
+
+/* <!-- START HEAD BANNER  --> */
+
+.banner{
+	min-height:400px;
+	background: url(../images/mobile_banner.jpg)no-repeat left center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+
+}
+#home_banner .gaia_block .container{ 
+/* this container is place in order for Gaia block to be centered 
+and reponsive to the width of the screen */
+	width: 330px;
+	height: 400px;
+	position: relative;
+	margin: 0 auto;
+	z-index: 3;
+
+}
+#home_banner .gaia_block #gaia_heading{
+	position: absolute;
+	bottom: 0;
+	padding-bottom: 20px;
+}
+#home_banner .gaia_block #gaia_heading #home_logo {
+	padding-right: 0;
+}
+#home_banner .gaia_block #gaia_heading #home_logo ul{
+	padding-left: 0;
+	position: relative;
+	width: 200px;
+	right: 20px;
+}
+#home_banner .gaia_block #gaia_heading #home_logo img{
+	width: 100px;
+	height: auto;
+	float: right;
+}
+
+#home_banner .gaia_block #gaia_heading #home_logo h1{
+	padding-top: 10px;
+	font-size: .8em;
+	text-align: right;
+	color: white;
+	margin:0;
+	line-height: 1.3em;
+	float: right;
+}
+
+#home_banner .gaia_block #gaia_heading #home_logo a{
+  font-size: .7em;
+  text-align: right;
+  color: white;
+  margin:0;
+  float: right;
+  background: #89AB4F;
+  font-family: 'Comfortaa', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  padding: 5px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+#home_banner .gaia_block #gaia_heading #home_logo a:hover{
+  background: #3C2519;
+}
+
+#home_banner .gaia_block #gaia_heading #gaia_phone {
+	padding-left: 0;
+}
+#home_banner .gaia_block #gaia_heading #gaia_phone img{
+	width: 180px;
+	height: auto;
+	float: left;
+
+}
+
+#home_banner .wood_banner img{
+	height: 20px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+
+/* <!-- END HEAD BANNER  --> */
+
+
+/* <!-- START GAIA INTRO --> */
+.gaia_intro {
+	background: url(../images/intro_background.jpg)no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+
+}
+
+/* CLOUD ANIMATION */
+.cloud {
+    width: 100%;
+    height: 130px;
+    padding-bottom: -100px;
+    background-image: url(../images/cloud.png);
+    background-position: 0px;
+    background-repeat: repeat-x;
+    -webkit-animation: myanim 60s infinite linear;
+       -moz-animation: myanim 60s infinite linear;
+         -o-animation: myanim 60s infinite linear;
+            animation: myanim 60s infinite linear;
+}
+
+@-webkit-keyframes myanim {
+  0%   { background-position: 0px; }
+  100% { background-position: 960px; } /* set this to the width of the image */
+}
+@-moz-keyframes myanim {
+  0%   { background-position: 0px; }
+  100% { background-position: 960px; } /* set this to the width of the image */
+}
+@-o-keyframes myanim {
+  0%   { background-position: 0px; }
+  100% { background-position: 960px; } /* set this to the width of the image */
+}
+@keyframes myanim {
+  0%   { background-position: 0px; }
+  100% { background-position: 960px; } /* set this to the width of the image */
+}
+
+
+.gaia_intro .ground_banner img{
+	height: 100px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	z-index: 1
+}
+#gaia_intro_block{
+	width: 300px;
+	margin: 0 auto;
+	position: relative;
+}
+/* GAIA LEFT BLOCK */
+
+.gaia_intro #gaia_left_block ul{
+	padding-left: 0;
+	color: #F1F1F2;
+	position: relative;
+}
+.gaia_intro #gaia_left_block #extra_text{
+	display: none;
+}
+
+.gaia_intro #gaia_left_block h1{
+	color: #724333;
+}
+
+.gaia_intro #gaia_left_block h3{
+	font-size: 1em;
+}
+.gaia_intro #gaia_left_block p{
+	font-size: .9em;
+}
+
+.gaia_intro #gaia_left_block #feature{
+	padding-top: 50px;
+}
+
+.gaia_intro #gaia_left_block img{
+	width: 200px;
+	height: auto;
+	position: relative;
+	z-index: 3;
+	padding-top: 20px;
+	padding-bottom: 70px;
+}
+
+/* GAIA RIGHT BLOCK */
+.gaia_intro #gaia_right_block img{
+	width: 130px;
+	height: auto;
+	position: absolute;
+	z-index: 3;
+	bottom: 0;
+	padding-top: 20px;
+	padding-bottom: 90px;
+	left: 200px;
+}
+
+/* <!-- END GAIA INTRO --> */
+ 
+/* <!-- START GAIA BENEFIT --> */ 
+/* GAIA BENEFIT */
+.gaia_benefit {
+	background: url(../images/benefit_background-mobile.jpg)no-repeat left center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.gaia_benefit ul{
+  padding-left: 0;
+  width: 280px;
+  margin: 0 auto
+}
+
+.gaia_benefit h1{
+  color:#724333;
+}
+
+.gaia_benefit h3{
+  font-size: 1em;
+}
+.gaia_benefit p{
+  font-size: .9em;
+}
+.gaia_benefit #icons_section {
+  text-align: center;
+  width: 200px;
+  margin: 0 auto;
+  display: block;
+}
+.gaia_benefit #icons_section p{
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: 700;
+  color:#724333;
+}
+.gaia_benefit #icon-1 {
+  width: 90px;
+  position: relative;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #D1D2D4;
+
+}
+.gaia_benefit #icon-1 img{
+  width: 40px;
+  height: auto;
+}
+.gaia_benefit #icon-2 {
+  width: 90px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #D1D2D4;
+}
+.gaia_benefit #icon-2 img{
+  width: 50px;
+  height: auto;
+}
+.gaia_benefit #icon-3 {
+  width: 90px;
+  padding-top: 15px;
+}
+.gaia_benefit #icon-3 img{
+  width: 40px;
+  height: auto;
+}
+/* <!-- END GAIA BENEFIT --> */
+
+/* <!-- START GAIA COLOR BOOK --> */
+.artbook_section {
+  background: url(../images/artbook.jpg)no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.artbook_section #art_text ul{
+  padding-left: 0;
+}
+.artbook_section #art_text h1{
+  color:#724333;
+}
+
+.artbook_section #art_text h3{
+  font-size: 1em;
+}
+.artbook_section #art_text p{
+  font-size: .9em;
+}
+.artbook_section #art_text a{
+  font-size: 1em;
+  text-decoration: none;
+  color:#724333;
+
+}
+
+.artbook_section #gaia_bubble img{
+  width: 250px;
+  height: auto;
+  position: relative;
+  left: 30px;
+  bottom: -40px;
+  z-index: 2;
+}
+
+.artbook_section .colorbook .container{
+  width:302.64px; 
+  height:169.25px; 
+  margin: 0 auto;
+  position: relative;
+  z-index: 4;
+  padding: 0;
+}
+
+.artbook_section iframe {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.artbook_section .plant_icon .container{
+  position: relative;
+  bottom: -30px;
+
+}
+.artbook_section .plant_icon img{
+  width: 150px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  opacity: .8;
+}
+
+footer {
+  background: url(../images/wood_banner.jpg)no-repeat top center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-bottom: 15px;
+  padding-top: 5px;
+  text-align: right;
+
+}
+footer ul h4{
+  color: #DABA9C;
+}
+footer ul .cdn a{
+  font-size: .9em;
+  color: #DABA9C;
+  text-decoration: none;
+
+}
+footer ul .cdn h4{
+  font-size: .9em;
+  margin: 0;
+  color: #DABA9C;
+}
+
+
+footer ul .company a{
+  font-size: .85em;
+  color: #DABA9C;
+  text-decoration: none;
+}
+footer ul .company h4{
+  font-size: .85em;
+  margin: 0;
+  color: #DABA9C;
+}
+
+
+
+
+
+

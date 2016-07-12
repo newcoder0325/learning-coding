@@ -1,0 +1,172 @@
+/******************
+******************
+
+	GLOBAL STYLE 
+******************
+******************/
+/* NAV SOCIAL */
+
+
+.main-nav #nav-logo img{
+  width: 70px;
+  height: auto;
+  padding-top: 8px;
+  position: relative;
+  right: 50px;
+}
+.main-nav ul{
+  padding-left: 0px;
+  padding-top: 10px;
+  float: right;
+}
+.main-nav a{
+ font-size: .85em;
+ text-decoration: none;
+ color:#513124;
+ font-family: 'Comfortaa', Helvetica, Arial, sans-serif;
+ font-weight: 700;
+}
+
+.main-nav a:hover{
+  color:#89AB4F;
+}
+.main-nav ul #s-media img{
+  width: 18px;
+  height: auto;
+  display: initial;
+}
+
+
+
+
+/******************
+******************
+
+	COSTUME STYLE 
+******************
+******************/
+
+/* <!-- START HEAD BANNER  --> */
+
+.banner{
+	min-height:100vh;
+	background: url(../images/home_banner_fixed.jpg)no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+
+}
+
+#home_banner .gaia_block .container{ 
+/* this container is place in order for Gaia block to be centered 
+and reponsive to the width of the screen */
+	width: 450px;
+	height: 100vh;
+}
+#home_banner .gaia_block #gaia_heading{
+	position: absolute;
+	bottom: 0;
+	padding-bottom: 50px;
+}
+
+#home_banner .gaia_block #gaia_heading #home_logo ul{
+	width: 330px;
+	top: 50px;
+	right: 60px;
+
+}
+
+#home_banner .gaia_block #gaia_heading #home_logo img{
+	width: 150px;
+	position: relative;
+	right: 10px;
+}
+
+#home_banner .gaia_block #gaia_heading #home_logo h1{
+	font-size: 1.5em;
+	color: #724333;
+	line-height: 27px;
+}
+#home_banner .gaia_block #gaia_heading #home_logo a{
+  font-size: 1em;
+
+}
+
+#home_banner .gaia_block #gaia_heading #gaia_phone {
+	padding-left: 50px;
+}
+
+#home_banner .gaia_block #gaia_heading #gaia_phone img{
+	width: 280px;
+}
+
+#home_banner .wood_banner img{
+	height: 50px;
+}
+
+
+
+
+
+/* INTRO BANNER SECTION */
+
+#gaia_intro_block{
+	width: 630px;
+	margin: 0 auto;
+	position: relative;
+}
+/* GAIA LEFT BLOCK */
+
+.gaia_intro #gaia_left_block ul{
+	width: 350px;
+}
+
+/* GAIA RIGHT BLOCK */
+.gaia_intro #gaia_right_block img{
+	width: 280px;
+	height: auto;
+	padding-top: 20px;
+	padding-bottom: 0;
+	position: relative;
+	bottom: -50px;
+	left: 30px;
+
+}
+
+/* GAIA BENEFIT */
+.gaia_benefit {
+	background: url(../images/benefit_background-lg.jpg)no-repeat left center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+
+/* <!-- START GAIA COLOR BOOK --> */
+.artbook_section {
+  background: url(../images/artbook.jpg)no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  padding-top: 50px;
+}
+
+.artbook_section #gaia_bubble img{
+  	left: 350px;
+}
+
+.artbook_section .colorbook .container{
+ /* Ratio: x 1.2; */
+
+  width:733px; 
+  height:410px; 
+  margin: 0 auto;
+  position: relative;
+  z-index: 4;
+  padding: 0;
+}
